@@ -3,6 +3,8 @@
 #include <stdint.h>
 #include "Utils.h"
 
+#define SOUND
+
 
 // - Overall Settings -----------------
 

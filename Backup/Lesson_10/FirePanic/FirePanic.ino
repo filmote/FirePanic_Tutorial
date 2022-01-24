@@ -1,5 +1,5 @@
 #include "src/utils/Arduboy2Ext.h"
-
+#include <ArduboyTones.h>
 #include "src/images/Images.h"
 #include "src/utils/Utils.h"
 #include "src/utils/Enums.h"
@@ -7,10 +7,9 @@
 #include "src/utils/EEPROM_Utils.h"
 #include "src/images/Images.h"
 #include "src/sounds/Sounds.h"
-#include "src/arduboyTones/ArduboyTonesExt.h"
 
 Arduboy2Ext arduboy;
-ArduboyTonesExt sound;
+ArduboyTones sound(arduboy.audio.enabled);
 
 GameState gameState = GameState::Title_Init;
 

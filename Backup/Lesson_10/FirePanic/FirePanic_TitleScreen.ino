@@ -20,7 +20,7 @@ void title_Init() {
   titleScreenVars.sloganDisplay = false;
 
   playGameVars.resetGame();
-  sound.setOutputEnabled(arduboy.audio.enabled);
+
   #ifdef SOUND
   sound.tones(Sounds::Score);
   #endif

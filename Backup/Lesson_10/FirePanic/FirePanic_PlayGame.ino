@@ -33,7 +33,6 @@ void playGame_Init() {
 
   }
 
-  sound.setOutputEnabled(arduboy.audio.enabled);
   gameState = GameState::PlayGame;
 
 }

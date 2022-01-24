@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../arduboyTones/ArduboyTonesExt.h"
+#include <ArduboyTones.h>
 
 namespace Sounds {
 
