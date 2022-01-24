@@ -1,0 +1,5 @@
+{
+    "board": "arduino:avr:leonardo",
+    "output": "../build",
+    "sketch": "FirePanic/FirePanic.ino"
+}
